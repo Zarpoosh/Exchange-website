@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
+    />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tilt Neon
+    ">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Paytone One
+
+
+
+    ">
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- header -->
+    <header>
+      <nav class="navbar navbar-expand-lg fixed-top ">
+        <button class="navbar-toggler nav-button" data-toggle="collapse" data-target="#mynav">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+        </button>
+        <a href="" class="nav-brand text-light mx-2 head-text">ARCbit</a>
+        <div class="collapse navbar-collapse justify-content-center" id="mynav">
+          <ul class="navbar-nav ">
+            <li class="nav-item mx-2">
+              <a href="" class="nav-link text-light">Asets</a>
+            </li>
+            <li class="nav-item mx-2">
+              <a href="" class="nav-link text-light">Staking</a>
+            </li>
+            <li class="nav-item mx-2">
+              <a href="" class="nav-link text-light">Earn
+                <span class="badge badge-success p-1 mx-2">+80% APR</span>
+              </a>
+            </li>
+            <li class="nav-item mx-2">
+              <a href="" class="nav-link text-light">NFTs</a>
+            </li>
+          </ul>
+        </div>
+        <div class="ml-auto">
+          <button class="btn btn-light mx-1" style="border-radius: 20px;">
+            <a style="color:rgba(3, 3, 146, 0.687);" href="">Sgin-in</a>
+          </button>
+          <button class=" btn btn-warning mx-1" style="border-radius: 20px;">
+            <a style="color:rgba(3, 3, 146, 0.687);" href="">Sgin-up</a>
+          </button>
+        </div>
+      </nav>
+      
+      <!-- <div class="text-left banner">
+        <h1 class="text-light">ARC</h1>
+      </div> -->
+    </header>
+    <!-- end of header -->
+
+    <section style="margin-top: 10%; " class="p-3">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-5 my-4">
+            <div>
+              <h1 class="text-light head-text">ARCbit , Safest Way to Enter Crypto World</h1>
+              
+            </div>
+          </div>
+          <div class=" col-md-6 col-lg-4 my-4 mx-auto">
+            <div class="card card-style">
+              <!-- card header -->
+              <div class="card-header">
+                <ul class="nav nav-pills justify-content-around"role="tablist">
+                  <li class="nav-item list-item active">
+                    <a class="text-dark" style="border-radius: 20px;" href="#home" class="nav-link active"data-toggle="tab" role="tab">Exchange</a>
+                  </li>
+                  <li class="nav-item list-item ">
+                    <a class="text-dark" style="border-radius: 20px;" href="#new" class="nav-link"data-toggle="tab" role="tab">Buy</a>
+                  </li>
+                  <li class="nav-item list-item ">
+                    <a class="text-dark" style="border-radius: 20px;" href="#more" class="nav-link"data-toggle="tab" role="tab">Sell</a>
+                  </li>
+                </ul>
+              </div>
+              <!-- card body -->
+              <div class="card-body">
+                <div class="tab-content">
+                  <div class="tab-pane fade show active"id="home" role="tabpanel">
+                    <form action="">
+                      <div class="row">
+                        <div class="col-9">
+                          <div class="form-group">
+                            <label class="mt-3" for="">You Pay:</label>
+                            <input style="border-radius: 20px;" type="number" class="form-control" placeholder="250,000">
+                            <label class="mt-3" for="">You Receive:</label>
+                            <input style="border-radius: 20px;" type="number" class="form-control" placeholder="10.63">
+                            <p class="my-2">Approximate price of BTC:</p>
+                          </div>
+                        </div>
+                        <div class="col-3">
+                          <div class="form-group mt-5">
+                            <select class="form-control select-style" aria-label="Default select example">
+                              <option  selected>USDT</option>
+                              <option>BTC</option>
+                              <option>ETHERUM</option>
+                            </select>
+                          </div>
+                          <div class="form-group mt-5">
+                            <select class="form-control select-style" aria-label="Default select example">
+                              <option selected>BTC</option>
+                              <option>USDT</option>
+                              <option>ETHERUM</option>
+                            </select>
+                          </div>
+                        </div>
+                      </div>
+                      <button class="btn btn-primary btn-block" style="border-radius: 20px;">Swap</button>
+                      <div class="row mt-2">
+                        <div class="col">
+                          <p>Price Impact:</p>
+                          <p>Fee:</p>
+                        </div>
+                        <div class="col text-right">
+                          <span class="badge my-2 text-danger">0.0008%</span><br>
+                          <span class="badge my-2">0.3%</span>
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+                  <div class="tab-pane fade "id="new" role="tabpanel">
+                    <form action="">
+                      <div class="row">
+                        <div class="col text-center">
+                          <!-- select-buy -->
+                          <div class="row">
+                            <div class="form-group col-6">
+                              <select class="form-control select-style" aria-label="Default select example">
+                                <option  selected>Limit</option>
+                                <option>MarketPrice</option>
+                              </select>
+                            </div>
+                            <div class="form-group col-6">
+                              <select class="form-control select-style" aria-label="Default select example">
+                                <option  selected disabled>Levrage</option>
+                                <option>5x</option>
+                                <option>10x</option>
+                                <option>20x</option>
+                                <option>30x</option>
+                                <option>40x</option>
+                                <option>50x</option>
+                              </select>
+                            </div>
+                          </div>
+                          <!-- end of select-buy -->
+                          <div class="form-group">
+                            <input style="border-radius: 20px;" type="number" class="form-control my-3" placeholder="Price(USDT)">
+                            <input style="border-radius: 20px;" type="number" class="form-control my-3" placeholder="Quantity">
+                          </div>
+                        </div>
+                      </div>
+                      <button class="btn btn-success btn-block" style="border-radius: 20px;">Buy/Long</button>
+
+                    </form>
+                  </div>
+                  <div class="tab-pane fade "id="more" role="tabpanel">
+                    <form action="">
+                      <div class="row">
+                        <div class="col text-center">
+                          <!-- select-sell -->
+                          <div class="row">
+                            <div class="form-group col-6">
+                              <select class="form-control select-style" aria-label="Default select example">
+                                <option  selected>Limit</option>
+                                <option>MarketPrice</option>
+                              </select>
+                            </div>
+                            <div class="form-group col-6">
+                              <select class="form-control select-style" aria-label="Default select example">
+                                <option  selected disabled>Levrage</option>
+                                <option>5x</option>
+                                <option>10x</option>
+                                <option>20x</option>
+                                <option>30x</option>
+                                <option>40x</option>
+                                <option>50x</option>
+                              </select>
+                            </div>
+                          </div>
+                        <!-- end of select-sell -->
+                          <div class="form-group">
+                            <input style="border-radius: 20px;" type="number" class="form-control my-3" placeholder="Price(USDT)">
+                            <input style="border-radius: 20px;" type="number" class="form-control my-3" placeholder="Quantity">
+                          </div>
+                        </div>
+                      </div>
+                      <button class="btn btn-danger btn-block" style="border-radius: 20px;">Buy/Long</button>
+
+                    </form>
+                  </div>
+                </div>
+              </div>
+              <!-- footer -->
+              <div class="card-footer text-center">
+                <a class="a-style" href="#">View Chart <i class="fas fa-external-link-alt"></i></a>
+              </div>
+              <!-- end of footer -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <script src="./js/jquery-3.6.3.slim.min.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>

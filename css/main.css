@@ -1,0 +1,70 @@
+*{
+    font-family:Tilt Neon;
+    
+
+}
+/* header */
+.head-text{
+    font-family:Paytone One;
+}
+body{
+    height: 100vh;
+    background:linear-gradient(rgba(3, 3, 146, 0.687), rgba(67, 22, 172, 0.597)),url(../image/رمزارز+++خرید+ارز+دیجیتال.jpg) ;
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    /* background-attachment:fixed ; */
+}
+.a-style{
+   text-decoration: none; 
+}
+nav{
+    background: rgba(1, 1, 52, 0.687);
+}
+
+
+/* nav button */
+.line1 ,.line2 ,.line3{
+    width: 23px;
+    height: 3px;
+    margin: 5px;
+    transition: all.4s;
+    background-color: white;
+}
+.change .line1{
+    transform: rotate(-45deg) translate(-5px,6px);
+}
+.change .line2{
+    opacity: 0;
+}
+.change .line3{
+    transform: rotate(45deg) translate(-5px,-6px);
+}
+/* end of navbutton */
+
+/* form */
+input::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+}
+a:hover{
+    text-decoration: none;
+}
+/* end of form */
+/* select */
+.select-style{
+    border-radius: 20px;
+    padding: 5px;
+}
+/* end of select */
+
+/* card */
+.card-style{
+    background: linear-gradient(rgba(199, 198, 198, 0.687), rgba(255, 253, 253, 0.597));
+}
+/* end of card */
+
+/* select */
+.active{
+    padding: 10px;
+   
+}
